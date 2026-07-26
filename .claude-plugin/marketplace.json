@@ -1,0 +1,15 @@
+{
+  "name": "fruit-picker",
+  "owner": {
+    "name": "Ezra Y. Finn",
+    "url": "https://github.com/Ezra-Y"
+  },
+  "description": "Evidence-based fruit picking skills for AI agents.",
+  "plugins": [
+    {
+      "name": "fruit-picker",
+      "source": "./fruit-picker",
+      "description": "Judge the middle band of fruit — durian, mango, avocado and watermelon — from photos plus a couple of answers, using rules derived from cited horticulture research and official postharvest standards."
+    }
+  ]
+}
