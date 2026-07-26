@@ -16,6 +16,43 @@
 
 ---
 
+## 🚀 Quick start
+
+**The easiest way — just hand the repo to your agent:**
+
+```text
+Install this skill for me: https://github.com/Ezra-Y/fruit-picker
+```
+
+Your agent will fetch it and put it where it belongs. Nothing else to do.
+
+<details>
+<summary><b>Prefer to do it yourself? Three other ways</b></summary>
+
+**Install as a plugin** (auto-updates, works in every project):
+
+```text
+/plugin marketplace add Ezra-Y/fruit-picker
+/plugin install fruit-picker@fruit-picker
+```
+
+**Copy the folder** into your personal skills directory:
+
+```bash
+gh repo clone Ezra-Y/fruit-picker /tmp/fruit-picker
+cp -R /tmp/fruit-picker/fruit-picker ~/.claude/skills/fruit-picker
+```
+
+**Ship it with a project** so your whole team gets it — same copy, into `.claude/skills/fruit-picker/` inside the repo, then commit.
+
+</details>
+
+Then just send it a photo:
+
+```text
+Help me check this durian — I want to eat it tonight.
+```
+
 ## 🤔 The problem it solves
 
 Durian is expensive — can this one be opened tonight? Two watermelons look identical, so which one? That mango looks gorgeous, but when is it actually at its best?
@@ -114,18 +151,6 @@ Mould, rot, weeping, unusual softness and dangerous splits are handled ahead of 
 **It says only as much as it can back up**:
 Every verdict carries a high / medium / low confidence level, plus what limits it — photo quality, coverage, or the signals themselves.
 
-## 📦 Installing
-
-Copy the [`fruit-picker/`](fruit-picker/) folder into your agent's skills directory:
-
-```bash
-git clone https://github.com/Ezra-Y/fruit-picker
-cp -R fruit-picker/fruit-picker ~/.claude/skills/fruit-picker
-```
-
-That one folder is the whole skill — `SKILL.md`, the rules under `references/`, the reference images and the two measurement scripts. Everything else in this repo is documentation.
-
-The scripts under `scripts/` need Python 3.10+ and Pillow, and are only invoked for calibrated colour measurement and watermelon texture ranking.
 
 ## 📄 License
 

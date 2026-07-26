@@ -22,6 +22,43 @@
 
 ---
 
+## 🚀 快速开始
+
+**最省事的方式——把仓库地址丢给你的 Agent:**
+
+```text
+帮我装一下这个 skill：https://github.com/Ezra-Y/fruit-picker
+```
+
+它会自己取下来放到该放的位置，你什么都不用管。
+
+<details>
+<summary><b>想自己动手？还有三种方式</b></summary>
+
+**当插件装**（能自动更新，所有项目都可用）：
+
+```text
+/plugin marketplace add Ezra-Y/fruit-picker
+/plugin install fruit-picker@fruit-picker
+```
+
+**直接拷文件夹**到你的个人 skills 目录：
+
+```bash
+gh repo clone Ezra-Y/fruit-picker /tmp/fruit-picker
+cp -R /tmp/fruit-picker/fruit-picker ~/.claude/skills/fruit-picker
+```
+
+**跟着项目走**，让团队每个人都有——同样是拷那个文件夹，放进项目里的 `.claude/skills/fruit-picker/`，然后提交。
+
+</details>
+
+装好之后，发张照片给它就行：
+
+```text
+帮我看看这颗榴莲，我今晚就想吃。
+```
+
 ## 🤔 它解决什么问题
 
 榴莲几十块一斤，这颗今晚能不能开？两个西瓜长得差不多，应该拿哪个？芒果颜色很好看，什么时候吃最合适？
@@ -117,18 +154,6 @@
 **有多大把握，说多大的话**：
 每个结论都带高、中、低三档置信度，并说清限制来自照片质量、拍摄覆盖还是信号本身。
 
-## 📦 安装
-
-把 [`fruit-picker/`](fruit-picker/) 这一个文件夹拷进你的 Agent skills 目录就行：
-
-```bash
-git clone https://github.com/Ezra-Y/fruit-picker
-cp -R fruit-picker/fruit-picker ~/.claude/skills/fruit-picker
-```
-
-这个文件夹就是 skill 的全部——`SKILL.md`、`references/` 里的规则、参照图和两个测量脚本。仓库里其余的都是说明文档，不用带走。
-
-`scripts/` 下的脚本需要 Python 3.10+ 和 Pillow，只在做校准测色和西瓜纹理排序时才会被调用。
 
 ## 📄 开源协议
 
