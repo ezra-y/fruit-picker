@@ -1,22 +1,20 @@
 <div align="center">
 
 
+<img src="assets/emoji.png" alt="摊主大人 skill" width="60">
 
+# 摊主大人 skill
 
-# 果断——让 AI 帮你 “专业地” 挑水果
-
-
-
-
- 🍈 拍几张照片，说一句什么时候吃，它就会告诉你这颗到底该拿，还是放下。
+> ### *让 AI 帮你 “专业地” 挑水果*
 
 <img src="https://img.shields.io/badge/支持水果-5_种_·_持续增加-4C9A6B?style=flat-square" alt="支持水果 5 种"> <img src="https://img.shields.io/badge/判断依据-园艺论文_%2B_官方标准-C99A3F?style=flat-square" alt="判断依据"> <img src="https://img.shields.io/badge/开源协议-MIT-5B7FBF?style=flat-square" alt="MIT 协议">
+
 
 🍈 金枕榴莲　👑 猫山王 / D24 / 黑刺　🥭 芒果　🥑 牛油果　🍉 西瓜
 
 [English](README.md) ・ **简体中文**
 
-<img src="assets/storyboard.png" alt="果断：从看中一颗水果，到开果验证的完整旅程" width="820">
+<img src="assets/storyboard.png" alt="摊主大人：从看中一颗水果，到开果验证的完整旅程" width="820">
 
 </div>
 
@@ -32,7 +30,7 @@
 
 它会自己取下来放到该放的位置，你什么都不用管。
 
-<details>
+<details open>
 <summary><b>想自己动手？还有三种方式</b></summary>
 
 **当插件装**（能自动更新，所有项目都可用）：
@@ -65,7 +63,7 @@ cp -R /tmp/fruit-picker/fruit-picker ~/.claude/skills/fruit-picker
 
 **真正难挑的，从来不是一眼就好或一眼就坏的水果，而是那些看着有戏、又让人拿不准的候选。**
 
-果断会检查照片里的果柄、底部、房线、地斑、果肩、开口和损伤等线索，再结合你的食用时间与手感描述，把「拿不准」变成四个明确答案里的一个：
+摊主大人会检查照片里的果柄、底部、房线、地斑、果肩、开口和损伤等线索，再结合你的食用时间与手感描述，把「拿不准」变成四个明确答案里的一个：
 
 > 🟢 **可以买** ・ 🟡 **满足条件再买** ・ 🔵 **需要确认** ・ 🔴 **换一颗**
 

@@ -1,8 +1,10 @@
 <div align="center">
 
-# Fruit Picker — let AI pick your fruit, properly
+<img src="assets/emoji.png" alt="Fruit Picker" width="60">
 
-🍈 Snap a few photos, say when you plan to eat it, and it tells you whether this one is worth taking home.
+# Fruit Picker
+
+> ### *Let AI pick your fruit, properly*
 
 <img src="https://img.shields.io/badge/fruits-5_and_growing-4C9A6B?style=flat-square" alt="5 fruits and growing"> <img src="https://img.shields.io/badge/grounded_in-horticulture_research_%2B_standards-C99A3F?style=flat-square" alt="grounded in research"> <img src="https://img.shields.io/badge/license-MIT-5B7FBF?style=flat-square" alt="MIT license">
 
@@ -26,7 +28,7 @@ Install this skill for me: https://github.com/Ezra-Y/fruit-picker
 
 Your agent will fetch it and put it where it belongs. Nothing else to do.
 
-<details>
+<details open>
 <summary><b>Prefer to do it yourself? Three other ways</b></summary>
 
 **Install as a plugin** (auto-updates, works in every project):
