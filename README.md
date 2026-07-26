@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/emoji.png" alt="Fruit Picker" width="60">
+<img src="assets/emoji.png" alt="Fruit Picker" width="100">
 
 # Fruit Picker
 
-> ### *Let AI pick your fruit, properly*
+### *Let AI pick your fruit, properly*
 
 <img src="https://img.shields.io/badge/fruits-5_and_growing-4C9A6B?style=flat-square" alt="5 fruits and growing"> <img src="https://img.shields.io/badge/grounded_in-horticulture_research_%2B_standards-C99A3F?style=flat-square" alt="grounded in research"> <img src="https://img.shields.io/badge/license-MIT-5B7FBF?style=flat-square" alt="MIT license">
 

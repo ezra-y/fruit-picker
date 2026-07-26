@@ -1,11 +1,11 @@
 <div align="center">
 
 
-<img src="assets/emoji.png" alt="摊主大人 skill" width="60">
+<img src="assets/emoji.png" alt="摊主大人 skill" width="100">
 
 # 摊主大人 skill
 
-> ### *让 AI 帮你 “专业地” 挑水果*
+### *让 AI 帮你 “专业地” 挑水果*
 
 <img src="https://img.shields.io/badge/支持水果-5_种_·_持续增加-4C9A6B?style=flat-square" alt="支持水果 5 种"> <img src="https://img.shields.io/badge/判断依据-园艺论文_%2B_官方标准-C99A3F?style=flat-square" alt="判断依据"> <img src="https://img.shields.io/badge/开源协议-MIT-5B7FBF?style=flat-square" alt="MIT 协议">
 
