@@ -3,7 +3,7 @@
 
 <img src="assets/emoji.png" alt="摊主大人 skill" width="100">
 
-# 摊主大人 skill
+# 摊主大人 Skill
 
 ### *让 AI 帮你 “专业地” 挑水果*
 

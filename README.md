@@ -2,7 +2,7 @@
 
 <img src="assets/emoji.png" alt="Fruit Picker" width="100">
 
-# Fruit Picker
+# Fruit Picker Skill
 
 ### *Let AI pick your fruit, properly*
 
