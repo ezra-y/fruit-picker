@@ -155,6 +155,6 @@ cp -R /tmp/fruit-picker/fruit-picker ~/.claude/skills/fruit-picker
 
 ## 📄 开源协议
 
-MIT，见 [LICENSE](LICENSE)。
-
+MIT，见 [LICENSE](LICENSE)。另见[隐私说明](PRIVACY.md)和
+[使用条款](TERMS.md)。
 

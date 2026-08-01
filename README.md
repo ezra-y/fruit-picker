@@ -156,4 +156,5 @@ Every verdict carries a high / medium / low confidence level, plus what limits i
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). Also see the [Privacy Notice](PRIVACY.md) and
+[Terms](TERMS.md).

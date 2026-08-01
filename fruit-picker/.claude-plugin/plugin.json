@@ -1,0 +1,19 @@
+{
+  "name": "fruit-picker",
+  "version": "1.0.0",
+  "description": "Assess fruit from photos and a few user observations using cited horticulture research and postharvest standards.",
+  "author": {
+    "name": "Ezra-Y",
+    "url": "https://github.com/Ezra-Y"
+  },
+  "homepage": "https://github.com/Ezra-Y/fruit-picker",
+  "repository": "https://github.com/Ezra-Y/fruit-picker",
+  "license": "MIT",
+  "keywords": [
+    "fruit",
+    "produce",
+    "shopping",
+    "photos",
+    "horticulture"
+  ]
+}
